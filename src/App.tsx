@@ -1,14 +1,16 @@
 
-import Counter from "./components/counter";
+// import Counter from "./components/counter";
+import GreetingComponent from "./components/greeting";
 import "./index.css";
-import ThemeCard from "./pages/themeCard";
+// import ThemeCard from "./pages/themeCard";
 
 function App() {
 return (
-<div>
+<div className=" flex flex-col justify-center items-center">
 
-<Counter />
-<ThemeCard/>
+{/* <Counter />
+<ThemeCard/> */}
+<GreetingComponent />
 
 </div>
 );
